@@ -22,7 +22,7 @@ function App() {
         <Greet name ="Rey" heroname="Reyflector">
           <Message/>
         </Greet>
-        <Greet name ={Hello()} heroname="testaman"/>
+        <Greet name ="Test" heroname="testaman"/>
         
         <a
           className="App-link"
