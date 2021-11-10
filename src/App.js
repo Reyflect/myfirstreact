@@ -4,7 +4,6 @@ import Greet from './components/Greet';
 import Message from './components/Message';
 import Button from './components/Button';
 import Hello from './components/Hello';
-import Rasta from './components/Rastaman';
 
 function App() {
   return (
