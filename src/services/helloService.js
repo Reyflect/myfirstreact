@@ -6,4 +6,9 @@ const getHello = () =>{
     return httpCommon.get('/hello');
 }
 
-export default {getHello};
+const getHi = () =>{
+    //gets the api hi
+    return httpCommon.get('/hi');
+}
+
+export default {getHello, getHi};
