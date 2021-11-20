@@ -4,6 +4,7 @@ import Greet from './components/Greet';
 import Message from './components/Message';
 import Button from './components/Button';
 import Hello from './components/Hello';
+import Employee from './components/Employee';
 
 function App() {
   return (
@@ -18,13 +19,13 @@ function App() {
             <br/>
 
         </p>    
-        
+        {Employee()}
 
         <Button/>
         <Greet name ="Rey" heroname="Reyflector">
           <Message/>
         </Greet>
-        <Greet name ="Test" heroname="testaman"/>
+        <Greet name ={Hello()} heroname="testaman"/>
         
 
         <a
